@@ -65,3 +65,5 @@ elm-stuff/
 package-lock.json
 
 .idea/
+
+elm.js
