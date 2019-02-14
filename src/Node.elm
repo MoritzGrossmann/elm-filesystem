@@ -1,7 +1,8 @@
 module Node exposing (Msg(..), Node, NodeName(..), NodeType(..), nodeNameToString, update)
 
 import Dict
-import NodeTypes
+import Directory exposing (Directory)
+import File exposing (File)
 
 
 type alias Node =
@@ -11,8 +12,8 @@ type alias Node =
 
 
 type NodeType
-    = Directory (NodeTypes.Directory Node)
-    | File NodeTypes.File
+    = Directory (Directory Node)
+    | File File
     | Pointer Node
 
 
