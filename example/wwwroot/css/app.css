@@ -1,0 +1,15 @@
+.toc-entry {
+    display: block;
+    cursor: pointer;
+}
+
+.toc-entry span:hover {
+    text-decoration: underline;
+}
+
+.bd-toc {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    overflow: auto;
+    position: sticky;
+}
